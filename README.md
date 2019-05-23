@@ -3,7 +3,7 @@
 ### Ví dụ đơn giản
 
 Gửi cho người gửi và không ai khác
-`socket.emit('hello', msg);`
+```socket.emit('hello', msg);```
 > Gửi cho mọi người kể cả người gửi (nếu người gửi ở trong phòng) trong phòng "phòng của tôi"
 
 `io.to('my room').emit('hello', msg);`
